@@ -1,0 +1,30 @@
+.footer{
+    background-color: $body_color;
+    color: $text_color;
+    font-size: 16px;
+    font-family: $footer_font_family;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10vh;
+
+    .icon{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-direction: row;
+
+        svg {
+            margin: 0px 10px 0px 10px;
+            width: 24px;
+            height: 24px;
+        }
+
+    }
+}

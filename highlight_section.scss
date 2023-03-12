@@ -1,0 +1,74 @@
+
+
+.highlight_section{
+
+    margin: 10vh 10vw 0 10vw;
+    border-radius: 5%;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: center;
+    align-content: center;
+    background-color: #F7FAFC;
+    @media (min-width: 1280px) {
+        border-radius: 2%;
+    }
+
+    .highlight_section_text{
+        padding: 0vh 4vw 0 5vw;
+
+        display: flex;    
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        justify-content: flex-start;
+        align-content: stretch;
+        margin: 0;
+
+        h1 {
+            font-size: 4vw;
+            font-family: $main_font_family;
+            color: $text_color;
+           
+        }
+
+        p{
+          
+            color: $text_description;
+            font-weight: 400;
+            font-size: 2vw;
+       
+        }
+    }
+
+    .highlight_section_img{
+        figure{
+            margin: 0;
+            padding: 0;
+        }
+
+        img{
+            max-width: 525px;
+            min-width: 100%;
+            min-height: 41vh;
+           
+            object-fit: cover;
+        }
+    }
+    .highlight_section_info{
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        .text_card_description{
+            color: $text_color;
+        }
+    }
+
+}
